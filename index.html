@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	    <div class="container">
+		    <div class="part1">
+				<div class="addtaskbox">
+					<h1>Todo Task App</h1>
+					<input type="text" class="inputbox" placeholder="Write your Task Here...."/>
+				</div>
+				<div class="prioritybox">
+					<h1>Select Priority</h1>
+					<label>Red</label>
+					<input type="checkbox" id="high" class="prioritycheckbox" />
+					<label>Yellow</label>
+					<input type="checkbox" id="medium" class="prioritycheckbox" />
+					<label>Green</label>
+					<input type="checkbox" id="low" class="prioritycheckbox" />
+				</div>
+			</div>
+			<div class="part2">
+				<div class="highpriority"><ul class="tasklist"></ul></div>
+				<div class="mediumpriority"><ul class="tasklist"></ul></div>
+				<div class="lowpriority"><ul class="tasklist"></ul></div>
+			</div>
+		</div>
+	    <script src="script.js" type="text/javascript"></script>
+	</body>
+</html>
